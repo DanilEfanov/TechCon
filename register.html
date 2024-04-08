@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registration</title>
+</head>
+<body>
+    <header>
+        <img src="Techcon.png" alt="Header Image" style="margin-left: 10px;">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Registration</a></li>
+                <li><a href="speakers.html">Speakers</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="all-sections">
+        <h2>Registration</h2>
+        <form id="registrationForm" action="#">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email" required>
+
+            <button type="submit" class="button">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact us: [de98@student.le.ac.uk]</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
